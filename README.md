@@ -17,13 +17,13 @@ Install homebridge:
 ```sh
 sudo npm install -g homebridge
 ```
-Install homebridge-mqtt:
+Install homebridge-mvc:
 ```sh
 sudo npm install -g homebridge-mvc
 ```
 
 ### Configuration
-Add the mqtt-platform in config.json in your home directory inside `.homebridge`.
+Add the platform in config.json in your home directory inside `.homebridge`.
 
 ```sh
 {
