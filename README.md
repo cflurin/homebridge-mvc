@@ -6,7 +6,7 @@
 
 Homebridge-mvc is a Plugin for Homebridge. This Example-plugin is based on the MVC (Model-View-Controller) pattern.
 
-Have a look at [homebridge-punt](https://github.com/cflurin/homebridge-mqtt) for a practical implementation.
+Have a look at [homebridge-mqtt](https://github.com/cflurin/homebridge-mqtt) for a practical implementation.
 
 ### Installation
 
