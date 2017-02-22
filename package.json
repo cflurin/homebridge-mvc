@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-mvc",
+  "version": "0.1.0",
+  "description": "MVC Plugin for Homebridge",
+  "license": "ISC",
+  "author": {
+    "name": "flurin"
+  },
+  "keywords": [
+    "homebridge",
+    "homebridge-plugin",
+    "homekit",
+    "siri",
+    "node-RED"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cflurin/homebridge-mvc.git"
+  },
+  "bugs": {
+    "url": "http://github.com/cflurin/homebridge-mvc/issues"
+  },
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.16"
+  },
+  "dependencies": {
+    "request": ">=2.79.0"
+  }
+}
