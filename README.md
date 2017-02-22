@@ -51,7 +51,7 @@ Add the platform in config.json in your home directory inside `.homebridge`.
 
 ## Howto examples
 
-1) Define your homriedge Plattform in index.js:
+1) Define your homebridge platform in index.js:
 
 ```js
 var platform_name = "myPlatform";
@@ -67,7 +67,9 @@ var platform_name = "myPlatform";
 accessory = {"name": "flex_lamp", "service_name": "light", "service": "Switch"};
 result = addAccessory(accessory);
 ```
-### add a service
+### add service
+
+Note: an accessory with the same name must be added before.
 
 ```sh
 accessory = {"name": "multi_sensor", "service_name": "Humidity", "service": "HumiditySensor"};
@@ -90,8 +92,7 @@ result = removeService(accessory);
 
 ### get accessoy/accessories
 
-The purpose of this function is to retrieve accessory Definitions.
-Use `setValue` to control your devices.
+The purpose of this function is to retrieve accessory definitions.
 
 ```sh
 accessory = {"name": "outdoor_temp"};
