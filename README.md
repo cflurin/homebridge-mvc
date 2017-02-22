@@ -132,13 +132,13 @@ result = setAccessoryInformation(accessory);
 ### get (from homebridge)
 
 ```sh
-Model.prototype.get = function(name, service_name, c) {...}
+Model.prototype.get = function(name, service_name, characteristic) {...}
 ```
 
 ### set (from homebridge)
 
 ```sh
-Model.prototype.set = function(name, service_name, c, value, callback) {...}
+Model.prototype.set = function(name, service_name, characteristic, value, callback) {...}
 ```
 
 ### identify (from homebridge)
