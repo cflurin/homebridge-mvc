@@ -6,6 +6,8 @@
 
 Homebridge-mvc is a Plugin for Homebridge. This Example-plugin is based on the MVC (Model-View-Controller) pattern.
 
+Have a look at [homebridge-punt](https://github.com/cflurin/homebridge-mqtt) for a practical implementation.
+
 ### Installation
 
 If you are new to Homebridge, please first read the Homebridge [documentation](https://www.npmjs.com/package/homebridge).
@@ -55,7 +57,9 @@ Add the mqtt-platform in config.json in your home directory inside `.homebridge`
 var platform_name = "myPlatform";
 ```
 
-2) Modify the functions for your plugin model.js
+**Note:** remeber to change `config.json` for your platform.
+
+2) Modify the functions for your plugin in model.js
 
 ### add accessory
 
