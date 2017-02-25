@@ -4,7 +4,7 @@
 [npm-image]: http://img.shields.io/npm/v/homebridge-mvc.svg
 [npm-url]: https://npmjs.org/package/homebridge-mvc
 
-Homebridge-mvc is a Plugin for Homebridge. This Example-plugin is based on the MVC (Model-View-Controller) pattern.
+Homebridge-mvc is a Plugin for Homebridge. This Example-plugin is based on MVC (Model-View-Controller) pattern.
 
 Have a look at [homebridge-mqtt](https://github.com/cflurin/homebridge-mqtt) for a practical implementation.
 
