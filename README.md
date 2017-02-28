@@ -90,7 +90,7 @@ accessory = {"name": "multi_sensor", "service_name": "Humidity"};
 result = removeService(accessory);
 ```
 
-### get accessoy/accessories
+### get accessory/accessories
 
 The purpose of this function is to retrieve accessory definitions.
 
