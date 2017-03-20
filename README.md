@@ -1,6 +1,7 @@
 # homebridge-mvc
 
 [![NPM version][npm-image]][npm-url]
+
 [npm-image]: http://img.shields.io/npm/v/homebridge-mvc.svg
 [npm-url]: https://npmjs.org/package/homebridge-mvc
 
