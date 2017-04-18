@@ -62,13 +62,13 @@ var platform_name = "myPlatform";
 
 2) Modify the functions for your plugin in model.js
 
-### add accessory
+### add accessory
 
 ```sh
 accessory = {"name": "flex_lamp", "service_name": "light", "service": "Switch"};
 result = addAccessory(accessory);
 ```
-### add service
+### add service
 
 Note: an accessory with the same name must be added before.
 
@@ -77,21 +77,21 @@ accessory = {"name": "multi_sensor", "service_name": "Humidity", "service": "Hum
 result = addService(accessory);
 ```
 
-### remove accessory
+### remove accessory
 
 ```sh
 accessory = {"name": "flex_lamp"};
 result = removeAccessory(accessory);
 ```
 
-### remove service
+### remove service
 
 ```sh
 accessory = {"name": "multi_sensor", "service_name": "Humidity"};
 result = removeService(accessory);
 ```
 
-### get accessory/accessories
+### get accessory/accessories
 
 The purpose of this function is to retrieve accessory definitions.
 
@@ -105,14 +105,14 @@ accessory = {"name": "*"};
 result = getAccessories(accessory);
 ```
 
-### set value
+### set value
 
 ```sh
 accessory = {"name": "flex_lamp", "service_name": "light", "characteristic": "On", "value": true};
 result = setValue(accessory);
 ```
 
-### update reachability
+### update reachability
 
 ```sh
 
@@ -123,32 +123,32 @@ result = updateReachability(accessory);
 
 ```
 
-### set accessory information
+### set accessory information
 
 ```sh
 accessory = {"name": "flex_lamp", "manufacturer": "espressif", "model": "esp8266-12", "serialnumber": "4711"};
 result = setAccessoryInformation(accessory);
 ```
 
-### get (from homebridge)
+### get (from homebridge)
 
 ```sh
 Model.prototype.get = function(name, service_name, characteristic) {...}
 ```
 
-### set (from homebridge)
+### set (from homebridge)
 
 ```sh
 Model.prototype.set = function(name, service_name, characteristic, value, callback) {...}
 ```
 
-### identify (from homebridge)
+### identify (from homebridge)
 
 ```sh
 Model.prototype.identify = function (name, manufacturer, model, serialnumber) {...}
 ```
 
-### define characterstic
+### define characterstic
 
 The required characteristics are added with the default properties. If you need to change the default, define the characteristic-name with the properties. e.g.:
 
